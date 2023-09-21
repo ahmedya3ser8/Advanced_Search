@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btns {
+    @apply p-[10px_20px] mr-[6px] bg-transparent border-[0.6px] border-solid border-[#ccc] rounded-[6px] text-[#323232];
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(97, 97, 97);
+}
+
+ul {
+  list-style: none;
+}
