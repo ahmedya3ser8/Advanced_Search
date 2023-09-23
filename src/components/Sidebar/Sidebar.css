@@ -1,0 +1,45 @@
+.sidebar-box {
+  padding: 3px 0;
+}
+
+.sidebar-input {
+  appearance: none;
+}
+
+.sidebar-box label {
+  position: relative;
+  padding-left: 25px;
+}
+
+.sidebar .sidebar-box label::before {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #eee;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 1px solid #f9f9f9;
+}
+
+.sidebar-input:checked + label::after,
+.sidebar-input:not(:checked):hover + label::after {
+  content: '';
+  background-color: #2196f3;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  left: 5px;
+  top: 4px;
+}
+
+.sidebar-input:not(:checked):hover + label::after {
+  opacity: 0.2;
+}
+
+.sidebar-input:checked + label {
+  color: #2196f3;
+}
