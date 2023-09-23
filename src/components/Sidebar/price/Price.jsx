@@ -2,7 +2,7 @@ import Input from "../../basic/Input";
 
 function Price({handleChange}) {
   return (
-    <div className="sidebar pl-[20px]">
+    <div className="sidebar pl-[15px]">
       <h2 className="sidebar-title text-[22px] font-normal mt-[10px] mb-[10px]">Price</h2>
       <div className="sidebar-container">
         <div className="sidebar-box">

@@ -1,7 +1,6 @@
 import Category from "./category/Category";
 import Colors from "./colors/Colors";
 import Price from "./price/Price";
-import './sidebar.css';
 
 function Sidebar({handleChange}) {
   return (

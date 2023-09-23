@@ -1,4 +1,5 @@
 import Input from "../../basic/Input";
+import './Category.css';
 
 function Category({handleChange}) {
   return (
